@@ -151,11 +151,14 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
   
 
 
-  app.post('/getTreatments', async (req, res) => {
-    
-    const selections = req.query.selections;
-    const mailObj= req.body;
 
+  app.post('/getTreatments', async (req, res) => {
+    const selections = req.query.selections; // Access selections from query parameters
+    const mailObj = {
+      toEmail: req.body.toEmail, // Assuming you pass toEmail in the request body
+      firstName: req.body.firstName, // Assuming you pass firstName in the request body
+      email_string: req.body.email_string // Assuming you pass email_string in the request body
+    };
   
     if (!selections) {
       return res.status(400).json({ error: 'Invalid request. Missing selections parameter.' });
@@ -164,13 +167,11 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
     try {
       const parsedSelections = JSON.parse(selections);
       const filteredTreatments = filterTreatments(treatments, parsedSelections);
-      await sendEmail(mailObj);
+      await sendEmail(mailObj); // Pass mailObj to the sendEmail function
       res.json(filteredTreatments);
     } catch (error) {
       res.status(400).json({ error: 'Invalid JSON format in selections parameter.' });
     }
-  
-
   });
 
 
