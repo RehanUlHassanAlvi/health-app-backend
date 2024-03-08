@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HubSpot Form</title>
+    <!-- Include the HubSpot Forms Embed JS via CDN -->
+    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+</head>
+<body>
+    <!-- Form Container -->
+    <div class="hs-form-container">
+        <!-- Form will be embedded here -->
+    </div>
+
+    <!-- Script to create the form -->
+    <script>
+        // Function to create the HubSpot form
+        function createHubSpotForm() {
+            // Configuration for the form
+            var formConfig = {
+                region: "na1",          // HubSpot region
+                portalId: "2251074",    // HubSpot Portal ID
+                formId: "cd513a46-db60-4dfc-9646-afbb747fc722"  // HubSpot Form ID
+            };
+
+            // Create the HubSpot form
+            hbspt.forms.create(formConfig);
+        }
+
+        // Call the function to create the form when the page loads
+        window.addEventListener('load', createHubSpotForm);
+    </script>
+</body>
+</html>
