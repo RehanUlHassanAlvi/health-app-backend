@@ -151,7 +151,7 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
   
 
 
-  app.get('/getTreatments', (req, res) => {
+  app.get('/getTreatments', async (req, res) => {
     
     const selections = req.query.selections;
     const mailObj= req.body;
@@ -164,7 +164,7 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
     try {
       const parsedSelections = JSON.parse(selections);
       const filteredTreatments = filterTreatments(treatments, parsedSelections);
-      sendEmail(mailObj);
+      await sendEmail(mailObj);
       res.json(filteredTreatments);
     } catch (error) {
       res.status(400).json({ error: 'Invalid JSON format in selections parameter.' });
