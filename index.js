@@ -151,7 +151,7 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
   
 
 
-  app.get('/getTreatments', async (req, res) => {
+  app.post('/getTreatments', async (req, res) => {
     
     const selections = req.query.selections;
     const mailObj= req.body;
