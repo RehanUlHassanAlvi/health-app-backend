@@ -167,7 +167,12 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
     try {
       const parsedSelections = JSON.parse(selections);
       const filteredTreatments = filterTreatments(treatments, parsedSelections);
+      if (!mailObj.toEmail){
+        console.log("no email recieved");
+      }
+      else{
       await sendEmail(mailObj); // Pass mailObj to the sendEmail function
+      }
       res.json(filteredTreatments);
     } catch (error) {
       res.status(400).json({ error: 'Invalid JSON format in selections parameter.' });
