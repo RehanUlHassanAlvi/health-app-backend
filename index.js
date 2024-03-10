@@ -116,7 +116,7 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
       const filteredTreatments = treatmentsData.map(treatment => {
 
         const relevantBodyParts = treatment.bodyParts.split(',').map(part => part.trim());
-        const filteredBodyParts = relevantBodyParts.filter(part => inputData.some(input => input.bodyPartName === part));
+        const filteredBodyParts = relevantBodyParts.filter(part => inputData.some(input => input.bodyPart === part));
         
           for(i in treatment.treatments){
             const filteredTreatmentDetails = treatmentDetails.filter(obj => obj.Name == treatment.treatments[i].name);
