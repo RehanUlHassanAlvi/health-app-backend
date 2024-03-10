@@ -112,6 +112,7 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
   const filterTreatments = (treatmentsData, inputData) => {
     const result = [];
     const allConcerns = [...new Set(inputData.flatMap(item => item.concerns))];
+    console.log(inputData)
     inputData.forEach(() => {
       const filteredTreatments = treatmentsData.map(treatment => {
 
@@ -121,7 +122,6 @@ app.get('/bodyPartsAndConcerns', (req, res) => {
           for(i in treatment.treatments){
             const filteredTreatmentDetails = treatmentDetails.filter(obj => obj.Name == treatment.treatments[i].name);
             treatmentsOthers=filteredTreatmentDetails[0].AdditionalTreatments.filter(obj => obj !=treatment.concern)
-            console.log(treatmentsOthers)
           treatment.treatments[i] ={
             ...treatment.treatments[i],
             treatmentProcess : filteredTreatmentDetails[0].ProcessInformation,
