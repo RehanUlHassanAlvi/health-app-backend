@@ -325,7 +325,14 @@ module.exports= [
     "AdditionalTreatments": [
       "Clogged Pores"
     ],
-    "ProcessInformation": {}
+    "ProcessInformation": {
+      "Procedure Type": "NIL",
+      "Procedure Length": "NIL",
+      "Back to Work": "NIL",
+      "Recovery Time": "NIL",
+      "Duration of Results": "NIL",
+      "# of Treatments": "NIL"
+    }
   },
   {
     "Name": "Chemical Peel",
