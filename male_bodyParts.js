@@ -16,8 +16,7 @@ module.exports = [
       "Excess Fat",
       "Wrinkles",
       "Unwanted Hair",
-      "Sagging Skin",
-      "Unwanted Tattoos"
+      "Sagging Skin"
     ]
   },
   {
@@ -27,8 +26,7 @@ module.exports = [
       "Acne",
       "Acne Scarring",
       "Excess Fat",
-      "Unwanted Hair",
-      "Unwanted Tattoos"
+      "Unwanted Hair"
     ]
   },
   {
@@ -47,8 +45,7 @@ module.exports = [
       "Excess Fat",
       "Wrinkles",
       "Unwanted Hair",
-      "Sagging Skin",
-      "Unwanted Tattoos"
+      "Sagging Skin"
     ]
   },
   {
@@ -59,8 +56,7 @@ module.exports = [
       "Brown Spots",
       "Red Spots",
       "Cherry Angiomas",
-      "Wrinkles",
-      "Unwanted Tattoos"
+      "Wrinkles"
     ]
   },
   {
@@ -201,14 +197,8 @@ module.exports = [
     concerns: [
       "Excess Hair",
       "Loose Skin",
-      "Unwanted Hair"
-    ]
-  },
-  {
-    bodyPartName: "Underarms",
-    concerns: [
-      "Excessive Underarm Sweating",
-      "Underarm Odor"
+      "Unwanted Hair",
+      "Sagging Skin"
     ]
   },
   {
@@ -252,12 +242,6 @@ module.exports = [
       "Oily Skin",
       "Melasma",
       "Sagging Skin"
-    ]
-  },
-  {
-    bodyPartName: "Legs",
-    concerns: [
-      "Unwanted Tattoos"
     ]
   }
 ];

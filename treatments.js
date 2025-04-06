@@ -9,11 +9,11 @@ module.exports = [
     },
     {
       "name": "Dysport",
-      "description": "Dysport® includes purified proteins used safely and naturally to temporarily improve the look of moderate to severe wrinkles. Dysport works by blocking nerve signals that direct facial muscles to contract during facial expressions. When muscles are prevented from contracting, the lines and folds in the skin's surface are prevented from forming. Lines continue to improve …Continued"
+      "description": "Dysport® includes purified proteins used safely and naturally to temporarily improve the look of moderate to severe wrinkles. Dysport works by blocking nerve signals that direct facial muscles to contract during facial expressions. When muscles are prevented from contracting, the lines and folds in the skin’s surface are prevented from forming. Lines continue to improve …Continued"
     },
     {
       "name": "Botox",
-      "description": "Botox® is made of purified proteins used safely and naturally to temporarily improve the look of moderate to severe wrinkles. Botox works by blocking nerve signals that direct facial muscles to contract during facial expressions. When muscles are prevented from contracting, the lines and folds in the skin's surface are prevented from forming. Lines continue …Continued"
+      "description": "Botox® is made of purified proteins used safely and naturally to temporarily improve the look of moderate to severe wrinkles. Botox works by blocking nerve signals that direct facial muscles to contract during facial expressions. When muscles are prevented from contracting, the lines and folds in the skin’s surface are prevented from forming. Lines continue …Continued"
     },
     {
       "name": "SculpSure",
@@ -26,7 +26,7 @@ module.exports = [
     "treatments": [
       {
         "name": "Medical-Grade Skincare Products",
-        "description": "Over the counter skincare products are often not enough to tackle notable skincare issues. That's why working with an aesthetic prodiver to create a skincare routine using medical-grade skincare products is the perfect way to create lasting skin health and appearance improvements."
+        "description": "Over the counter skincare products are often not enough to tackle notable skincare issues. That’s why working with an aesthetic prodiver to create a skincare routine using medical-grade skincare products is the perfect way to create lasting skin health and appearance improvements."
       },
       {
         "name": "AviClear",

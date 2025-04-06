@@ -33,37 +33,54 @@ module.exports= [
     }
   },
   {
-    "Name": "CoolSculpting",
-    "Recommendation": "Our recommendation is that you get CoolSculpting.",
+    "Name": "Microneedling RF",
+    "Recommendation": "Our recommendation is that you get Microneedling RF.",
+    "AdditionalTreatments": [
+      "Clogged Pores",
+      "Double Chin",
+      "Loose Skin",
+      "Sagging Skin",
+      "Uneven Skin Tone"
+    ],
+    "ProcessInformation": {
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "45-60 Minutes",
+      "Back to Work": "Next Day",
+      "# of Treatments": "2-4"
+    }
+  },
+  {
+    "Name": "SculpSure",
+    "Recommendation": "Our recommendation is that you get SculpSure.",
     "AdditionalTreatments": [
       "Drooping Forehead",
       "Loose Skin",
       "Sagging Skin"
     ],
     "ProcessInformation": {
-      "Procedure Type": "Non-Invasive Body Contouring",
-      "Procedure Length": "25-60 minutes",
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "25 Minutes",
       "Back to Work": "Immediately",
-      "Recovery Time": "Minimal to none",
-      "Duration of Results": "Permanent fat reduction in treated areas",
-      "# of Treatments": "1-3 treatments per area"
+      "Recovery Time": "None",
+      "Duration of Results": "Permanent W/ Diet and Excercise",
+      "# of Treatments": "1+"
     }
   },
   {
-    "Name": "Aerolase",
-    "Recommendation": "Our recommendation is that you get Aerolase.",
+    "Name": "AviClear",
+    "Recommendation": "Our recommendation is that you get AviClear.",
     "AdditionalTreatments": [
       "Acne",
       "Acne Scarring",
       "Oily Skin"
     ],
     "ProcessInformation": {
-      "Procedure Type": "Non-Ablative Laser Treatment",
-      "Procedure Length": "20-30 minutes",
-      "Back to Work": "Same day",
-      "Recovery Time": "Minimal to none",
-      "Duration of Results": "Months to long-term with maintenance",
-      "# of Treatments": "3-6 treatments"
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "30 Minutes",
+      "Back to Work": "Immediately",
+      "Recovery Time": "None",
+      "Duration of Results": "9-12 Months",
+      "# of Treatments": "3"
     }
   },
   {
@@ -109,8 +126,8 @@ module.exports= [
     }
   },
   {
-    "Name": "Hydrafacial",
-    "Recommendation": "Our recommendation is that you get Hydrafacial.",
+    "Name": "DiamondGlow Facial",
+    "Recommendation": "Our recommendation is that you get DiamondGlow Facial.",
     "AdditionalTreatments": [
       "Acne",
       "Acne Scarring",
@@ -164,7 +181,7 @@ module.exports= [
     "Name": "Botox",
     "Recommendation": "Our recommendation is that you get Botox.",
     "AdditionalTreatments": [
-      "11's",
+      "11’s",
       "Drooping Forehead",
       "Frown Lines",
       "Furrowed Brow",
@@ -203,6 +220,41 @@ module.exports= [
     }
   },
   {
+    "Name": "Morpheus8 Body",
+    "Recommendation": "Our recommendation is that you get Morpheus8 Body.",
+    "AdditionalTreatments": [
+      "Sagging Skin"
+    ],
+    "ProcessInformation": {
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "Varies",
+      "Back to Work": "Immediately",
+      "Recovery Time": "3-5 Days",
+      "Duration of Results": "Year or Longer",
+      "# of Treatments": "2-4"
+    }
+  },
+  {
+    "Name": "Morpheus8 Microneedling",
+    "Recommendation": "Our recommendation is that you get Morpheus8 Microneedling.",
+    "AdditionalTreatments": [
+      "Dark Circles",
+      "Double Chin",
+      "Drooping Forehead",
+      "Sagging Eyelids",
+      "Sagging Skin",
+      "Uneven Skin Tone"
+    ],
+    "ProcessInformation": {
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "Varies",
+      "Back to Work": "Immediately",
+      "Recovery Time": "3-5 Days",
+      "Duration of Results": "Year or Longer",
+      "# of Treatments": "1-3"
+    }
+  },
+  {
     "Name": "Custom Facial",
     "Recommendation": "Our recommendation is that you get Custom Facial.",
     "AdditionalTreatments": [
@@ -225,6 +277,25 @@ module.exports= [
       "Back to Work": "Immediately",
       "Recovery Time": "None",
       "Duration of Results": "4-6 Weeks",
+      "# of Treatments": "Varies"
+    }
+  },
+  {
+    "Name": "Juvederm Fillers",
+    "Recommendation": "Our recommendation is that you get Juvederm Fillers.",
+    "AdditionalTreatments": [
+      "Crepey, Aging Skin",
+      "Facial Folds",
+      "Jowls Jawline",
+      "Loss of Facial Volume",
+      "Nasolabial Folds"
+    ],
+    "ProcessInformation": {
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "15-60 Minutes",
+      "Back to Work": "Immediately",
+      "Recovery Time": "Varies",
+      "Duration of Results": "12-18 Months",
       "# of Treatments": "Varies"
     }
   },
@@ -288,7 +359,7 @@ module.exports= [
     "Name": "Dysport",
     "Recommendation": "Our recommendation is that you get Dysport.",
     "AdditionalTreatments": [
-      "11's",
+      "11’s",
       "Crows Feet",
       "Drooping Forehead",
       "Frown Lines",
@@ -318,133 +389,6 @@ module.exports= [
       "Back to Work": "Immediately",
       "Recovery Time": "1-2 Days",
       "Duration of Results": "9-18 Months",
-      "# of Treatments": "1+"
-    }
-  },
-  {
-    "Name": "HALO",
-    "Recommendation": "Our recommendation is that you get HALO.",
-    "AdditionalTreatments": [
-      "Acne Scarring",
-      "Fine Lines",
-      "Hyperpigmentation",
-      "Large Pores",
-      "Melasma",
-      "Sunspots",
-      "Uneven Skin Texture",
-      "Uneven Skin Tone",
-      "Wrinkles"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Hybrid Fractional Laser",
-      "Procedure Length": "30-60 minutes",
-      "Back to Work": "1-2 days",
-      "Recovery Time": "5-7 days",
-      "Duration of Results": "Long-lasting; maintenance treatments may be recommended",
-      "# of Treatments": "1-2 treatments"
-    }
-  },
-  {
-    "Name": "MOXI",
-    "Recommendation": "Our recommendation is that you get MOXI.",
-    "AdditionalTreatments": [
-      "Fine Lines",
-      "Hyperpigmentation",
-      "Melasma",
-      "Sunspots",
-      "Uneven Skin Texture",
-      "Uneven Skin Tone"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Non-Ablative Fractional Laser",
-      "Procedure Length": "30-45 minutes",
-      "Back to Work": "Same day or next day",
-      "Recovery Time": "3-5 days",
-      "Duration of Results": "Long-lasting with maintenance treatments",
-      "# of Treatments": "3-4 treatments"
-    }
-  },
-  {
-    "Name": "Sculptra",
-    "Recommendation": "Our recommendation is that you get Sculptra.",
-    "AdditionalTreatments": [
-      "Fine Lines",
-      "Loss of Facial Volume",
-      "Nasolabial Folds",
-      "Wrinkles"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Injectable Poly-L-Lactic Acid (PLLA) Filler",
-      "Procedure Length": "30-60 minutes",
-      "Back to Work": "Immediately",
-      "Recovery Time": "Minimal to none",
-      "Duration of Results": "Up to 2 years",
-      "# of Treatments": "Typically 3 injections over 3-4 months"
-    }
-  },
-  {
-    "Name": "EZ Gel",
-    "Recommendation": "Our recommendation is that you get EZ Gel.",
-    "AdditionalTreatments": [
-      "Acne Scarring",
-      "Fine Lines",
-      "Loss of Facial Volume",
-      "Wrinkles"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Autologous Plasma Filler",
-      "Procedure Length": "30-60 minutes",
-      "Back to Work": "Immediately",
-      "Recovery Time": "Minimal to none",
-      "Duration of Results": "6-12 months",
-      "# of Treatments": "Typically 1-2 sessions"
-    }
-  },
-  {
-    "Name": "miraDry",
-    "Recommendation": "Our recommendation is that you get miraDry.",
-    "AdditionalTreatments": [
-      "Excessive Underarm Sweating",
-      "Underarm Odor"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Non-Invasive Microwave-Based Treatment",
-      "Procedure Length": "60 minutes",
-      "Back to Work": "Immediately",
-      "Recovery Time": "Minimal to none",
-      "Duration of Results": "Permanent",
-      "# of Treatments": "Typically 1-2 sessions"
-    }
-  },
-  {
-    "Name": "Laser Tattoo Removal",
-    "Recommendation": "Our recommendation is that you undergo Laser Tattoo Removal.",
-    "AdditionalTreatments": [
-      "Unwanted Tattoos"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Non-Invasive Laser Treatment",
-      "Procedure Length": "10-30 minutes per session",
-      "Back to Work": "Immediately",
-      "Recovery Time": "Minimal to none",
-      "Duration of Results": "Permanent removal over multiple sessions",
-      "# of Treatments": "Typically 6-10 sessions"
-    }
-  },
-  {
-    "Name": "SculpSure",
-    "Recommendation": "Our recommendation is that you get SculpSure.",
-    "AdditionalTreatments": [
-      "Drooping Forehead",
-      "Loose Skin",
-      "Sagging Skin"
-    ],
-    "ProcessInformation": {
-      "Procedure Type": "Non-Surgical",
-      "Procedure Length": "25 Minutes",
-      "Back to Work": "Immediately",
-      "Recovery Time": "None",
-      "Duration of Results": "Permanent W/ Diet and Exercise",
       "# of Treatments": "1+"
     }
   }
