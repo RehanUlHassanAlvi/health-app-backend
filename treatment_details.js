@@ -164,7 +164,7 @@ module.exports= [
     "Name": "Botox",
     "Recommendation": "Our recommendation is that you get Botox.",
     "AdditionalTreatments": [
-      "11\u2019s",
+      "11's",
       "Drooping Forehead",
       "Frown Lines",
       "Furrowed Brow",
@@ -249,8 +249,8 @@ module.exports= [
     }
   },
   {
-    "Name": "SkinPen\u00ae Microneedling",
-    "Recommendation": "Our recommendation is that you get SkinPen\u00ae Microneedling.",
+    "Name": "SkinPen® Microneedling",
+    "Recommendation": "Our recommendation is that you get SkinPen® Microneedling.",
     "AdditionalTreatments": [
       "Clogged Pores"
     ],
@@ -288,7 +288,7 @@ module.exports= [
     "Name": "Dysport",
     "Recommendation": "Our recommendation is that you get Dysport.",
     "AdditionalTreatments": [
-      "11\u2019s",
+      "11's",
       "Crows Feet",
       "Drooping Forehead",
       "Frown Lines",
@@ -324,6 +324,17 @@ module.exports= [
   {
     "Name": "HALO",
     "Recommendation": "Our recommendation is that you get HALO.",
+    "AdditionalTreatments": [
+      "Acne Scarring",
+      "Fine Lines",
+      "Hyperpigmentation",
+      "Large Pores",
+      "Melasma",
+      "Sunspots",
+      "Uneven Skin Texture",
+      "Uneven Skin Tone",
+      "Wrinkles"
+    ],
     "ProcessInformation": {
       "Procedure Type": "Hybrid Fractional Laser",
       "Procedure Length": "30-60 minutes",
@@ -336,6 +347,14 @@ module.exports= [
   {
     "Name": "MOXI",
     "Recommendation": "Our recommendation is that you get MOXI.",
+    "AdditionalTreatments": [
+      "Fine Lines",
+      "Hyperpigmentation",
+      "Melasma",
+      "Sunspots",
+      "Uneven Skin Texture",
+      "Uneven Skin Tone"
+    ],
     "ProcessInformation": {
       "Procedure Type": "Non-Ablative Fractional Laser",
       "Procedure Length": "30-45 minutes",
@@ -348,6 +367,12 @@ module.exports= [
   {
     "Name": "Sculptra",
     "Recommendation": "Our recommendation is that you get Sculptra.",
+    "AdditionalTreatments": [
+      "Fine Lines",
+      "Loss of Facial Volume",
+      "Nasolabial Folds",
+      "Wrinkles"
+    ],
     "ProcessInformation": {
       "Procedure Type": "Injectable Poly-L-Lactic Acid (PLLA) Filler",
       "Procedure Length": "30-60 minutes",
@@ -360,6 +385,12 @@ module.exports= [
   {
     "Name": "EZ Gel",
     "Recommendation": "Our recommendation is that you get EZ Gel.",
+    "AdditionalTreatments": [
+      "Acne Scarring",
+      "Fine Lines",
+      "Loss of Facial Volume",
+      "Wrinkles"
+    ],
     "ProcessInformation": {
       "Procedure Type": "Autologous Plasma Filler",
       "Procedure Length": "30-60 minutes",
@@ -372,6 +403,10 @@ module.exports= [
   {
     "Name": "miraDry",
     "Recommendation": "Our recommendation is that you get miraDry.",
+    "AdditionalTreatments": [
+      "Excessive Underarm Sweating",
+      "Underarm Odor"
+    ],
     "ProcessInformation": {
       "Procedure Type": "Non-Invasive Microwave-Based Treatment",
       "Procedure Length": "60 minutes",
@@ -384,6 +419,9 @@ module.exports= [
   {
     "Name": "Laser Tattoo Removal",
     "Recommendation": "Our recommendation is that you undergo Laser Tattoo Removal.",
+    "AdditionalTreatments": [
+      "Unwanted Tattoos"
+    ],
     "ProcessInformation": {
       "Procedure Type": "Non-Invasive Laser Treatment",
       "Procedure Length": "10-30 minutes per session",
@@ -391,6 +429,23 @@ module.exports= [
       "Recovery Time": "Minimal to none",
       "Duration of Results": "Permanent removal over multiple sessions",
       "# of Treatments": "Typically 6-10 sessions"
+    }
+  },
+  {
+    "Name": "SculpSure",
+    "Recommendation": "Our recommendation is that you get SculpSure.",
+    "AdditionalTreatments": [
+      "Drooping Forehead",
+      "Loose Skin",
+      "Sagging Skin"
+    ],
+    "ProcessInformation": {
+      "Procedure Type": "Non-Surgical",
+      "Procedure Length": "25 Minutes",
+      "Back to Work": "Immediately",
+      "Recovery Time": "None",
+      "Duration of Results": "Permanent W/ Diet and Exercise",
+      "# of Treatments": "1+"
     }
   }
 ];
